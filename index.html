@@ -312,24 +312,32 @@
             </a>
           </div>
           <form
+            action="https://formspree.io/f/xwvyjvgn"
+            method="POST"
             class="contact-me__form"
             data-aos="fade-left"
             data-aos-delay="200"
           >
             <input
               type="text"
+              name="name"
               placeholder="Your Name"
               class="contact-me__input"
+              required
             />
             <input
               type="email"
+              name="email"
               placeholder="Your Email"
               class="contact-me__input"
+              required
             />
             <textarea
+              name="message"
               placeholder="Your Message"
               class="contact-me__input"
               rows="5"
+              required
             ></textarea>
             <button type="submit" class="btn btn--primary">Send Message</button>
           </form>
